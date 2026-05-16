@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://michaljankowskii.github.io/PDFCombierPage/sitemap.xml

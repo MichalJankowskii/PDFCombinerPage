@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PDF Combiner — Merge PDFs on Windows, No Cloud Required</title>
+  <meta name="description" content="PDF Combiner lets you merge multiple PDF files with drag-and-drop, select individual pages, rotate pages, and encrypt the output — 100% offline, no account needed.">
+  <meta name="author" content="Michał Jankowski">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://michaljankowskii.github.io/PDFCombierPage/">
+
+  <!-- Open Graph -->
+  <meta property="og:type"        content="website">
+  <meta property="og:url"         content="https://michaljankowskii.github.io/PDFCombierPage/">
+  <meta property="og:title"       content="PDF Combiner — Merge PDFs on Windows">
+  <meta property="og:description" content="Merge multiple PDFs with granular page selection, rotation, and AES-256 encryption. 100% offline — your files never leave your PC.">
+  <meta property="og:image"       content="https://michaljankowskii.github.io/PDFCombierPage/assets/img/screenshot-main.svg">
+
+  <!-- Twitter -->
+  <meta name="twitter:card"        content="summary_large_image">
+  <meta name="twitter:title"       content="PDF Combiner — Merge PDFs on Windows">
+  <meta name="twitter:description" content="Merge multiple PDFs with granular page selection, rotation, and AES-256 encryption. 100% offline.">
+
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body>
+
+<!-- ── Navigation ── -->
+<nav class="site-nav" aria-label="Site navigation">
+  <div class="container">
+    <div class="nav-inner">
+      <a href="/" class="nav-logo">
+        <img src="assets/img/logo.svg" alt="" width="30" height="30" aria-hidden="true">
+        PDF Combiner
+      </a>
+      <ul class="nav-links" role="list">
+        <li><a href="#features">Features</a></li>
+        <li><a href="#screenshots">Screenshots</a></li>
+        <li><a href="#requirements">Requirements</a></li>
+        <li><a href="#licensing">Pricing</a></li>
+        <li><a href="privacy.html">Privacy</a></li>
+      </ul>
+      <a href="downloads/PDFCombiner-Setup.msi" class="btn btn-primary btn-sm" download>
+        ⬇ Download
+      </a>
+    </div>
+  </div>
+</nav>
+
+<!-- ── Hero ── -->
+<section class="hero" aria-labelledby="hero-heading">
+  <div class="container">
+    <div class="hero-inner">
+
+      <div class="hero-content">
+        <div class="hero-badge" aria-label="Current version">
+          <span aria-hidden="true">✦</span> Version 2.5 · Free
+        </div>
+        <h1 class="hero-title" id="hero-heading">
+          Merge PDFs.<br>
+          <span>Your way. Offline.</span>
+        </h1>
+        <p class="hero-desc">
+          Combine multiple PDF files with granular page selection, per-file rotation,
+          and optional AES-256 output encryption — no cloud, no account, no subscription.
+        </p>
+        <div class="hero-actions">
+          <a href="downloads/PDFCombiner-Setup.msi" class="btn btn-primary" download
+             aria-label="Download PDF Combiner Setup — Windows installer">
+            ⬇ Download for Windows
+          </a>
+          <a href="#features" class="btn btn-outline">
+            See all features
+          </a>
+        </div>
+        <p class="hero-meta">
+          Free to use · Windows 10/11 x64 ·
+          <a href="terms.html">Full license via donation</a>
+        </p>
+      </div>
+
+      <div class="hero-image" aria-hidden="true">
+        <!-- IMAGES NEEDED: replace screenshot-main.svg with screenshot-main.png
+             (full-window screenshot at ~1200×750px, app with 3-4 PDFs loaded) -->
+        <img src="assets/img/screenshot-main.svg"
+             alt="PDF Combiner main window showing four PDF files loaded with drag-and-drop"
+             width="1200" height="750"
+             loading="eager">
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ── Features ── -->
+<section class="section section-alt" id="features" aria-labelledby="features-heading">
+  <div class="container">
+    <div class="section-title tc">
+      <h2 id="features-heading">Everything you need to combine PDFs</h2>
+      <p class="lead">No installs of Acrobat. No uploads to a server. Just your files and your PC.</p>
+    </div>
+
+    <div class="features-grid" role="list">
+
+      <article class="feature-card" role="listitem">
+        <div class="feature-icon" aria-hidden="true">📂</div>
+        <h3>Drag-and-drop file management</h3>
+        <p>Drop PDFs directly into the list or use the file picker.
+           Reorder files up and down before combining.
+           Select multiple files at once with Ctrl/Shift-click.</p>
+      </article>
+
+      <article class="feature-card" role="listitem">
+        <div class="feature-icon" aria-hidden="true">📋</div>
+        <h3>Granular page selection</h3>
+        <p>Choose exactly which pages to include per file.
+           Enter a range (<code>1-5</code>), individual pages (<code>1, 3, 7</code>),
+           or a mix. Or click individual page thumbnails directly.</p>
+      </article>
+
+      <article class="feature-card" role="listitem">
+        <div class="feature-icon" aria-hidden="true">🔄</div>
+        <h3>Per-file page rotation</h3>
+        <p>Rotate a file's pages by 90°, 180°, or 270° before the merge.
+           Applied non-destructively — your original files are never modified.</p>
+      </article>
+
+      <article class="feature-card" role="listitem">
+        <div class="feature-icon" aria-hidden="true">🔒</div>
+        <h3>Password-protected input PDFs</h3>
+        <p>Open and include password-protected source PDFs.
+           Each file can have its own password; they are stored in memory
+           only for the duration of the session.</p>
+      </article>
+
+      <article class="feature-card" role="listitem">
+        <div class="feature-icon" aria-hidden="true">🛡</div>
+        <h3>AES-256 output encryption</h3>
+        <p>Optionally protect the merged PDF with a password.
+           Uses AES-256 encryption (iText7). Available to full-license users.</p>
+      </article>
+
+      <article class="feature-card" role="listitem">
+        <div class="feature-icon" aria-hidden="true">👁</div>
+        <h3>Live page thumbnail preview</h3>
+        <p>Expandable grid showing all pages across all loaded files
+           with applied rotations and selection state.
+           Virtualized rendering keeps the UI fast even for large PDFs.</p>
+      </article>
+
+      <article class="feature-card" role="listitem">
+        <div class="feature-icon" aria-hidden="true">💻</div>
+        <h3>100% offline — files stay on your PC</h3>
+        <p>PDF Combiner has no cloud component for document processing.
+           Your files are read and written locally. The only network call
+           is an optional version-check on startup.</p>
+      </article>
+
+      <article class="feature-card" role="listitem">
+        <div class="feature-icon" aria-hidden="true">⚖️</div>
+        <h3>Free for commercial use</h3>
+        <p>The free tier has no commercial-use restrictions.
+           The only difference is a single informational page appended
+           to the merged PDF. Upgrade via a one-time PayPal donation
+           to remove it permanently.</p>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ── Screenshots ── -->
+<section class="section" id="screenshots" aria-labelledby="screenshots-heading">
+  <div class="container">
+    <div class="section-title tc">
+      <h2 id="screenshots-heading">See it in action</h2>
+      <p class="lead">Clean, modern WinUI 3 interface — fast and keyboard-friendly.</p>
+    </div>
+
+    <div class="screenshots-grid">
+
+      <figure class="screenshot-item">
+        <!-- IMAGES NEEDED: replace screenshot-main.svg with screenshot-main.png
+             Caption: main view with 4 PDFs loaded, showing name/path/pages/rotation columns -->
+        <img class="screenshot-img"
+             src="assets/img/screenshot-main.svg"
+             alt="Main window: file list with four PDFs, showing name, path, page range, rotation, and size columns"
+             width="1200" height="750"
+             loading="lazy">
+        <figcaption>File list view — add, reorder, and configure each PDF before combining</figcaption>
+      </figure>
+
+      <figure class="screenshot-item">
+        <!-- IMAGES NEEDED: replace screenshot-pages.svg with screenshot-pages.png
+             Caption: thumbnail strip expanded, showing individual page thumbnails with checkboxes -->
+        <img class="screenshot-img"
+             src="assets/img/screenshot-pages.svg"
+             alt="Page thumbnail view: expandable grid showing individual pages from each PDF with checkboxes for fine-grained selection"
+             width="1200" height="750"
+             loading="lazy">
+        <figcaption>Page thumbnail view — select individual pages with a click, or Shift-click for ranges</figcaption>
+      </figure>
+
+    </div>
+  </div>
+</section>
+
+<!-- ── System Requirements ── -->
+<section class="section section-alt" id="requirements" aria-labelledby="req-heading">
+  <div class="container">
+    <div class="section-title tc">
+      <h2 id="req-heading">System requirements</h2>
+      <p class="lead">PDF Combiner is a native Windows desktop application.</p>
+    </div>
+
+    <div class="req-wrapper" style="max-width:640px; margin-inline:auto;">
+      <table class="req-table" aria-label="System requirements">
+        <thead>
+          <tr><th scope="col">Component</th><th scope="col">Requirement</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Operating system</td><td>Windows 10 (version 19041 or later) or Windows 11</td></tr>
+          <tr><td>Architecture</td><td>64-bit (x64) only</td></tr>
+          <tr><td>Runtime</td><td>Included in the installer — no separate .NET download needed</td></tr>
+          <tr><td>Disk space</td><td>~60 MB installed</td></tr>
+          <tr><td>Internet</td><td>Not required — fully offline after installation</td></tr>
+          <tr><td>Admin rights</td><td>Required for installation only</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- ── Licensing ── -->
+<section class="section" id="licensing" aria-labelledby="licensing-heading">
+  <div class="container">
+    <div class="section-title tc">
+      <h2 id="licensing-heading">Simple, honest pricing</h2>
+    </div>
+
+    <p class="licensing-intro">
+      PDF Combiner is free to use with no commercial restrictions.
+      Support the project with a one-time PayPal donation to unlock the full version — no subscription, ever.
+    </p>
+
+    <div class="licensing-cards">
+
+      <div class="license-card">
+        <div class="license-label">Free</div>
+        <h3>Community</h3>
+        <div class="license-price">$0 <em>forever</em></div>
+        <ul class="license-features" role="list">
+          <li><span class="chk" aria-hidden="true">✓</span> Unlimited PDF merges</li>
+          <li><span class="chk" aria-hidden="true">✓</span> All page selection &amp; rotation features</li>
+          <li><span class="chk" aria-hidden="true">✓</span> Password-protected input PDFs</li>
+          <li><span class="chk" aria-hidden="true">✓</span> Commercial use allowed</li>
+          <li><span class="chk" aria-hidden="true">✓</span> 100% offline</li>
+          <li class="dimmed"><span class="chk" aria-hidden="true">✕</span> Appends one informational page to output</li>
+          <li class="dimmed"><span class="chk" aria-hidden="true">✕</span> No AES-256 output encryption</li>
+        </ul>
+        <a href="downloads/PDFCombiner-Setup.msi" class="btn btn-outline" download>
+          ⬇ Download free
+        </a>
+      </div>
+
+      <div class="license-card featured">
+        <div class="license-label">Full license</div>
+        <h3>Supporter</h3>
+        <div class="license-price">Any amount <em>one-time</em></div>
+        <ul class="license-features" role="list">
+          <li><span class="chk" aria-hidden="true">✓</span> Everything in Community</li>
+          <li><span class="chk" aria-hidden="true">✓</span> No extra page appended to output</li>
+          <li><span class="chk" aria-hidden="true">✓</span> AES-256 output encryption</li>
+          <li><span class="chk" aria-hidden="true">✓</span> License valid for 1 year per donation</li>
+          <li><span class="chk" aria-hidden="true">✓</span> Activates automatically via your PayPal email</li>
+        </ul>
+        <!-- PayPal donate button — uses the in-app business ID -->
+        <form action="https://www.paypal.com/donate" method="post" target="_blank">
+          <input type="hidden" name="business" value="jankowski.m@gmail.com">
+          <input type="hidden" name="currency_code" value="USD">
+          <input type="hidden" name="item_name" value="PDF Combiner — Full License">
+          <button type="submit" class="btn btn-primary">
+            ♥ Donate via PayPal
+          </button>
+        </form>
+      </div>
+
+    </div>
+
+    <div class="oss-banner">
+      <div class="oss-icon" aria-hidden="true">🔓</div>
+      <div>
+        <p>
+          <strong>PDF Combiner is open source</strong> — licensed under the
+          <a href="https://www.gnu.org/licenses/agpl-3.0.html" rel="noopener noreferrer" target="_blank">GNU AGPL v3</a>.
+          You are free to study, modify, and redistribute the source code under the terms of that license.
+          See <a href="terms.html">Terms of Use</a> and <a href="privacy.html">Privacy Policy</a> for details.
+        </p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ── Footer ── -->
+<footer class="site-footer" aria-label="Site footer">
+  <div class="container">
+    <div class="footer-inner">
+
+      <div class="footer-brand">
+        <a href="/" class="nav-logo">
+          <img src="assets/img/logo.svg" alt="" width="26" height="26" aria-hidden="true">
+          PDF Combiner
+        </a>
+        <p>A free, offline-first Windows tool for merging PDF files — built by Michał Jankowski.</p>
+      </div>
+
+      <nav class="footer-links" aria-label="Footer navigation">
+        <div class="footer-col">
+          <h4>Product</h4>
+          <ul role="list">
+            <li><a href="#features">Features</a></li>
+            <li><a href="#screenshots">Screenshots</a></li>
+            <li><a href="#requirements">Requirements</a></li>
+            <li><a href="#licensing">Pricing</a></li>
+            <li><a href="downloads/PDFCombiner-Setup.msi" download>Download</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Legal</h4>
+          <ul role="list">
+            <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a href="terms.html">Terms of Use</a></li>
+            <li><a href="https://www.gnu.org/licenses/agpl-3.0.html" rel="noopener noreferrer" target="_blank">AGPL v3 License</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul role="list">
+            <li><a href="mailto:jankowski.m@gmail.com">jankowski.m@gmail.com</a></li>
+          </ul>
+        </div>
+      </nav>
+
+    </div>
+
+    <div class="footer-bottom">
+      <span>© 2021–2026 Michał Jankowski · PDF Combiner v2.5</span>
+      <span>
+        <a href="privacy.html">Privacy</a> ·
+        <a href="terms.html">Terms</a>
+      </span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

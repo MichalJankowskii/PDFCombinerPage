@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — PDF Combiner</title>
+  <meta name="description" content="Privacy policy for PDF Combiner. No analytics, no tracking, no document uploads. Learn exactly what data is collected and why.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://michaljankowskii.github.io/PDFCombierPage/privacy.html">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body>
+
+<nav class="site-nav" aria-label="Site navigation">
+  <div class="container">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">
+        <img src="assets/img/logo.svg" alt="" width="30" height="30" aria-hidden="true">
+        PDF Combiner
+      </a>
+      <ul class="nav-links" role="list">
+        <li><a href="index.html#features">Features</a></li>
+        <li><a href="index.html#licensing">Pricing</a></li>
+        <li><a href="privacy.html" aria-current="page">Privacy</a></li>
+        <li><a href="terms.html">Terms</a></li>
+      </ul>
+      <a href="downloads/PDFCombiner-Setup.msi" class="btn btn-primary btn-sm" download>
+        ⬇ Download
+      </a>
+    </div>
+  </div>
+</nav>
+
+<main>
+  <div class="container">
+    <article class="legal-page">
+
+      <a href="index.html" class="back">← Back to home</a>
+
+      <h1>Privacy Policy</h1>
+      <p class="updated">Last updated: 15 May 2026</p>
+
+      <p>
+        This Privacy Policy describes what information PDF Combiner ("the application", "we", "us") collects,
+        why it is collected, and how it is used. We are committed to collecting the minimum data necessary
+        to operate the application and its optional licensing system.
+      </p>
+
+      <h2>1. Data we do NOT collect</h2>
+      <ul>
+        <li>We do <strong>not</strong> collect, transmit, or store any of your PDF files or their contents.</li>
+        <li>We do <strong>not</strong> use any analytics, telemetry, or crash-reporting service that sends data to third parties.</li>
+        <li>We do <strong>not</strong> track your usage of the application, which files you open, or how often you use it.</li>
+        <li>We do <strong>not</strong> require you to create an account.</li>
+        <li>We do <strong>not</strong> collect your name, address, or any other personally identifying information unless you initiate a donation.</li>
+      </ul>
+
+      <h2>2. Data collected automatically</h2>
+
+      <h3>2.1 Hardware machine ID</h3>
+      <p>
+        On first launch, PDF Combiner generates a <strong>machine ID</strong> — a one-way MD5 hash derived from
+        hardware identifiers (CPU ID, BIOS serial, primary MAC address, GPU name).
+        This hash is used solely to activate and validate your license without requiring an account or login.
+        The machine ID:
+      </p>
+      <ul>
+        <li>Is sent to our backend (Azure Functions) only when checking for an available license at startup.</li>
+        <li>Is stored in Azure Table Storage associated with your license record, if you have donated.</li>
+        <li>Cannot be used to identify you personally — it is a one-way hardware fingerprint.</li>
+        <li>Is displayed in the About window so you can share it when requesting support.</li>
+      </ul>
+
+      <h3>2.2 Version-check request</h3>
+      <p>
+        At startup, the application sends a single HTTP request to our backend to check for a newer version
+        and to validate your license. This request includes:
+      </p>
+      <ul>
+        <li>Your machine ID (see above).</li>
+        <li>The current application version number.</li>
+      </ul>
+      <p>
+        No IP address is stored beyond what is automatically logged by the hosting platform (Azure Functions)
+        in its standard infrastructure logs, which are retained for a short period and used only for
+        diagnosing service issues.
+      </p>
+
+      <h2>3. Data you provide voluntarily (donation / licensing)</h2>
+      <p>
+        If you donate via PayPal to obtain a full license, PayPal processes your payment and shares the
+        following information with us:
+      </p>
+      <ul>
+        <li>Your <strong>PayPal email address</strong> — used to match the donation to a license record.</li>
+        <li>Your first name — included in PayPal's donation notification email, used only for greeting purposes.</li>
+      </ul>
+      <p>
+        This data is stored in Azure Table Storage and is used exclusively to activate and renew your license.
+        It is never sold, shared with third parties, or used for marketing without your explicit consent.
+      </p>
+      <p>
+        To exercise your right to access or delete this data, email
+        <a href="mailto:jankowski.m@gmail.com">jankowski.m@gmail.com</a>.
+      </p>
+
+      <h2>4. Local storage</h2>
+      <p>
+        PDF Combiner stores a small license cache file on your device using Windows Isolated Storage.
+        This file contains:
+      </p>
+      <ul>
+        <li>The last known license status (free or full).</li>
+        <li>The license expiry date (if applicable).</li>
+        <li>The last version-check date.</li>
+        <li>The download URL for the latest version.</li>
+      </ul>
+      <p>This data never leaves your device except as described in section 2.2.</p>
+
+      <h2>5. This website</h2>
+      <p>
+        This website is hosted on GitHub Pages. GitHub may collect standard web server logs (IP address,
+        user agent, referrer) in accordance with
+        <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement"
+           rel="noopener noreferrer" target="_blank">GitHub's Privacy Statement</a>.
+        We do not use cookies, analytics scripts, or tracking pixels on this website.
+      </p>
+
+      <h2>6. Children's privacy</h2>
+      <p>
+        PDF Combiner is not directed at children under 13. We do not knowingly collect personal data
+        from children.
+      </p>
+
+      <h2>7. Changes to this policy</h2>
+      <p>
+        We may update this policy to reflect changes in the application or applicable law.
+        The "Last updated" date at the top of this page will reflect any revisions.
+      </p>
+
+      <h2>8. Contact</h2>
+      <p>
+        Questions about this policy? Email us at
+        <a href="mailto:jankowski.m@gmail.com">jankowski.m@gmail.com</a>.
+      </p>
+
+    </article>
+  </div>
+</main>
+
+<footer class="site-footer" aria-label="Site footer">
+  <div class="container">
+    <div class="footer-bottom" style="border-top:none; margin-top:0; padding-top:0;">
+      <span>© 2021–2026 Michał Jankowski · PDF Combiner v2.5</span>
+      <span>
+        <a href="privacy.html">Privacy</a> ·
+        <a href="terms.html">Terms</a> ·
+        <a href="index.html">Home</a>
+      </span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
